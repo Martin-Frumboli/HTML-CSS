@@ -1,0 +1,52 @@
+.tabla1 {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+
+  .tabla1 th,
+  .tabla1 td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .tabla1 th {
+    background-color: #E6F3FF;
+  }
+
+  .tabla1 tr:nth-child(even) {
+    background-color: #FFFFCC;
+  }
+
+  /* Estilos para las cabeceras de fila y columna */
+  #primerafila th {
+    background-image: url(fondo_gris.gif);
+    background-repeat: repeat-x;
+    background-color: #E6F3FF;
+  }
+
+  .eurodolar,
+  .dolaryen,
+  #libradolar,
+  #euroyen {
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+  }
+
+  .eurodolar {
+    background-image: url(euro.png);
+  }
+
+  .dolaryen {
+    background-image: url(dolar.png);
+  }
+
+  #libradolar {
+    background-image: url(libra.png);
+  }
+
+  #euroyen {
+    background-image: url(yen.png);
+  }

@@ -1,0 +1,19 @@
+/*  Enlaces normales */
+a {
+    color:  #CC0000;
+}
+
+/* Enlaces al pasar con el raton */
+
+a:hover{
+
+    background-color: #CC0000;
+    color: #FFF;
+}
+
+/* Enlaces visitados */
+
+a:visited{
+
+    color: #CCC;
+}

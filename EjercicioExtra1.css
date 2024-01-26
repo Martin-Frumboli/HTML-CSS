@@ -1,0 +1,23 @@
+#lista1{
+
+    color: red;
+    list-style: upper-latin;
+    
+}
+
+.enlace1:visited{
+
+    color: darkgreen;
+}
+.enlace2:visited{
+
+    color: red;
+}
+.enlace3:visited{
+
+    color: black;
+}
+.enlace4:visited{
+
+    color: coral;
+}
